@@ -11,7 +11,9 @@ end
 def reduce(arr,starting_value=nil)
 i=0 
 while i < arr.length 
-arr[i]
+if starting_value
+  num1=starting_value
+  arr[i]
 i+= 1
   end
 

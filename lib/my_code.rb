@@ -9,11 +9,13 @@ i+= 1
 end
 
 def reduce(arr,starting_value=nil)
-i=0 
-while i < arr.length 
+
 if starting_value
   num1=starting_value
-  arr[i]
+i=0
+else 
+  num1=[arr][0]
+  i=1
 i+= 1
   end
 

@@ -11,12 +11,15 @@ end
 def reduce(arr,starting_value=nil)
 
 if starting_value
-  num1=starting_value
+  sum=starting_value
 i=0
 else 
-  num1=[arr][0]
+  sum=[arr][0]
   i=1
-i+= 1
   end
-
+  while i < arr.length 
+ sum= yield(sum,arr[i])
+i+= 1
+end 
+sum
 end

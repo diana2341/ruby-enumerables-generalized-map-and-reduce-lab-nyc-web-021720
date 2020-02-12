@@ -8,7 +8,10 @@ i+= 1
   new
 end
 
-def reduce(arr,starting_value=0)
-
+def reduce(arr,starting_value=nil)
+i=0 
+while i < arr.length 
+i+= 1
+  end
 
 end

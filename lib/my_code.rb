@@ -23,3 +23,6 @@ i+= 1
 end 
 sum
 end
+
+
+###NEED MORE PRACTICE 

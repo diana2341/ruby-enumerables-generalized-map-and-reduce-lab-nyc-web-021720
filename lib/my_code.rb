@@ -11,6 +11,7 @@ end
 def reduce(arr,starting_value=nil)
 i=0 
 while i < arr.length 
+arr[i]
 i+= 1
   end
 
